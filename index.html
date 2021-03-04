@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Some Programming language Image Show</title>
+        <!-- Internal CSS Style Here. -->
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            /* Main page */
+            .mainpage{
+              width: 1200px;
+              margin: 0 auto;
+            }
+            
+            /* Header section start */
+            .headersection{
+                padding: 10px;
+                height: 60px;
+                background: #1abc9c;
+            }
+            .headersection h2{
+                color: #fff;
+                margin-top: 5px;
+                text-align: center;
+            }
+            /* Header Section Stop */
+
+            /* Nav section Start */
+            nav ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                background-color: #16a085;
+                height: 30px;
+                line-height: 30px;
+            }
+            nav ul li{
+                cursor: pointer;
+                float: left;
+                border-right: 1px solid #044437;
+            }
+            nav ul li a{
+                display: block;
+                padding: 0 23.1px;
+                color: #fff;
+                text-decoration: none;
+            }
+            nav ul li a:hover{
+                background-color: #056b57;
+                text-decoration: underline;
+            }
+            .active{
+                background-color:#056b57;
+            }
+            /* Nav Section End */
+
+            /* Footer Section Start */
+            .footer{
+                padding: 10px;
+                height: 60px;
+                background: #1abc9c;
+            }
+            .footer h2{
+                color: #fff;
+                margin-top: 5px;
+                text-align: center;
+            }
+            /* Footer Section End */
+
+            /* image show  */
+            .imageShow{
+                margin-top: 10px;
+            }
+            table tr td img{
+                width: 292px;
+                height: 200px; 
+            }
+            table tr td{
+                border: 3px solid#1abc9c;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainpage">
+                <header class="headersection">
+                    <h2>Programming Gallary Show Image</h2>
+                </header>
+                <nav>
+                    <ul>
+                        <li class="active">
+                            <a href="#">HTML</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">JsvaScript</a>
+                        </li>
+                        <li>
+                            <a href="#">C Programming</a>
+                        </li>
+                        <li>
+                            <a href="#">C++ Programming</a>
+                        </li>
+                        <li>
+                            <a href="#">C# Programming</a>
+                        </li>
+                        <li>
+                            <a href="#">DBMS Language</a>
+                        </li>
+                        <li>
+                            <a href="#">Go Language</a>
+                        </li>
+                        <li>
+                            <a href="#">Ruby Language</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            <section class="programe">
+                <table>
+                    <caption class="imageShow">Some Programming Language Image Show Locally & Online</caption>
+                    <tbody>
+                        <tr>
+                            <!-- Local Computer Image Show Start -->
+                            <td>
+                                <img src="html.jpg" alt="HTML">
+                            </td>
+                            <td>
+                                <img src="css.jpg" alt="CSS">
+                            </td>
+                            <td>
+                                <img src="dbms.png" alt="DBMS">
+                            </td>
+                            <td>
+                                <img src="c.jpg" alt="C Programming Language">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="c++.jpg" alt="C++ Programming Language">
+                            </td>
+                            <td>
+                                <img src="python.jpg" alt="Python Programming Language">
+                            </td>
+                            <!-- Local Computer Image Show End -->
+                            <td>
+                                <!-- Online Image Show Srart -->
+                                <img src="https://www.thoughtco.com/thmb/JpBnEUWE4Szf34r-7z0pKoQUPCs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/2000px-Ruby-logo-R.svg-56a811b75f9b58b7d0f05e83.jpg" alt="Ruby">
+                            </td>
+                            <td>
+                                <img src="https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg" alt="JavaScript">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png" alt="Node Js">
+                            </td>
+                            <td>
+                                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--qa72YNaF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/me6sbpz893h3a6ip5zsv.jpg" alt="React Js">
+                            </td>
+                            <td>
+                                <img src="https://www.softwebsolutions.com/wp-content/uploads/2020/10/golang-Programing.jpg" alt="Go Programming Language">
+                            </td>
+                            <td>
+                                <img src="https://www.edureka.co/blog/wp-content/uploads/2018/01/2-2.png" alt="Java">
+                            </td>
+                            <!-- Online Image Show End -->
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <footer class="footer">
+                <h2>&copy; Copy Right Masud Khan</h2>
+            </footer>
+        </div>
+    </body>
+</html>
